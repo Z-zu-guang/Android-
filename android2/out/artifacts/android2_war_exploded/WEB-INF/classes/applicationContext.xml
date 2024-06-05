@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+	   http://www.springframework.org/schema/context
+	   http://www.springframework.org/schema/context/spring-context.xsd"
+	   default-autowire="byName">
+	<context:component-scan base-package="com.sise.android.service.impl,com.sise.android.pojo"/>
+	<context:property-placeholder location="classpath:db.properties"/>
+	<!-- 数据源封装类 .数据源:获取数据库连接,spring-jdbc.jar中-->
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${jdbc.driver}"/>
+		<property name="url" value="${jdbc.url}"/>
+		<property name="username" value="${jdbc.username}"/>
+		<property name="password" value="${jdbc.password}"/>
+	</bean>
+	<!-- 创建SqlSessionFactory对象 -->
+	<bean id="factory" class="org.mybatis.spring.SqlSessionFactoryBean"/>
+
+	<!-- 扫描器相当于mybatis.xml中 mappers下package标签,扫描com.bjsxt.mapper包后会给对应接口创建对象-->
+	<bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		<!-- 要扫描哪个包 -->
+		<property name="basePackage" value="com.sise.android.mapper"/>
+		<!-- 和factory产生关系 -->
+		<property name="sqlSessionFactoryBeanName" value="factory"/>
+	</bean>
+	<!-- 由spring管理service实现类 -->
+
+</beans>

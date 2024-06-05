@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/activity_change_password.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/activity_information.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/activity_information_manage.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/activity_login.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/activity_student.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/activity_teacher.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/activity_test.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/fragment_information.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/fragment_information_add.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/fragment_information_manage.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/fragment_manage.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/fragment_my.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/fragment_school_time_table.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/fragment_score_manage.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/layout/list_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/menu/bottom_nav_menu.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/menu/bottom_nav_menu2.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Desktop/Android-master/android/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.127" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1205" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/drawable/view_radius.xml" value="0.1205" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/layout/activity_change_password.xml" value="0.16799999999999998" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/layout/activity_information.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/layout/activity_information_manage.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/layout/activity_login.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/layout/activity_student.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/layout/fragment_my.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/layout/fragment_school_time_table.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/layout/fragment_score_manage.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/layout/list_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/menu/bottom_nav_menu.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/menu/bottom_nav_menu2.xml" value="0.24947916666666667" />
+        <entry key="..\:/Users/zhzg/Documents/Tencent Files/382470264/FileRecv/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/QC班-陈晓婷、张泳琪-学生信息管理系统-Spring架构设计与课程设计/课设源代码/android/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.127" />
+        <entry key="..\:/study/大二/Android开发/2040129432-周祖光-课程设计/Android-master/android/android/app/src/main/res/layout/activity_information_manage.xml" value="0.24947916666666667" />
+        <entry key="..\:/study/大二/Android开发/2040129432-周祖光-课程设计/Android-master/android/android/app/src/main/res/layout/activity_login.xml" value="0.24947916666666667" />
+        <entry key="..\:/study/大二/Android开发/2040129432-周祖光-课程设计/Android-master/android/android/app/src/main/res/layout/activity_student.xml" value="0.24947916666666667" />
+        <entry key="..\:/study/大二/Android开发/2040129432-周祖光-课程设计/Android-master/android/android/app/src/main/res/layout/fragment_manage.xml" value="0.24947916666666667" />
+        <entry key="..\:/study/大二/Android开发/2040129432-周祖光-课程设计/Android-master/android/android/app/src/main/res/layout/fragment_my.xml" value="0.24947916666666667" />
+        <entry key="..\:/study/大二/Android开发/2040129432-周祖光-课程设计/Android-master/android/android/app/src/main/res/layout/list_item.xml" value="0.24947916666666667" />
+        <entry key="..\:/study/大二/Android开发/2040129432-周祖光-课程设计/Android-master/android/android/app/src/main/res/menu/bottom_nav_menu.xml" value="0.24947916666666667" />
+        <entry key="..\:/study/大二/Android开发/2040129432-周祖光-课程设计/Android-master/android/android/app/src/main/res/menu/bottom_nav_menu2.xml" value="0.24947916666666667" />
+        <entry key="..\:/study/大二/Android开发/2040129432-周祖光-课程设计/Android-master/android/android/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1185" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

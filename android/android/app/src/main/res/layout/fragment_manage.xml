@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/b"
+    tools:ignore="MotionLayoutInvalidSceneFileReference">
+
+
+    <!--    成绩管理-->
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="180dp"
+            android:src="@drawable/grade" />
+
+        <Button
+            android:id="@+id/score_manage"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="180dp"
+            android:text="@string/score_manage" />
+    </LinearLayout>
+
+
+
+    <!--    学生信息管理-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="108dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/message" />
+
+        <Button
+            android:id="@+id/student_information_manage"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/student_information_manage" />
+    </LinearLayout>
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
+

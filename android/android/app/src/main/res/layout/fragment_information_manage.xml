@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/b"
+    tools:context=".ui.teacher.informationManage.InformationManageFragment">
+
+    <LinearLayout
+        android:id="@+id/testaaa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/sno" />
+
+            <EditText
+                android:id="@+id/manage_sno"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/name" />
+
+            <EditText
+                android:id="@+id/manage_name"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/password" />
+
+            <EditText
+                android:id="@+id/manage_password"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/sex" />
+
+            <EditText
+                android:id="@+id/manage_sex"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/phone" />
+
+            <EditText
+                android:id="@+id/manage_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/classed" />
+
+
+            <Spinner
+                android:id="@+id/manage_classed"
+                android:layout_width="135dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.1"
+                android:background="@drawable/textview_border" />
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/role" />
+
+            <EditText
+                android:id="@+id/manage_role"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/teacher" />
+
+            <EditText
+                android:id="@+id/manage_teacher"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="45dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/counselor" />
+
+            <EditText
+                android:id="@+id/manage_counselor"
+                android:layout_width="25dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/birthday" />
+
+            <EditText
+                android:id="@+id/manage_birthday"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.1"
+                android:text="@string/enrollmentDate" />
+
+            <EditText
+                android:id="@+id/manage_enrollmentDate"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/manage_modify"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/modify" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

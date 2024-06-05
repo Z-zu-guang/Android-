@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.student.schoolTimeTable.SchoolTimeTableFragment">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="660dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+        <TableRow
+            android:id="@+id/tableHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:text="@string/monday" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:text="@string/tuesday" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:text="@string/wednesday" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:text="@string/thursday" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.15"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:text="@string/friday" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowMorning1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:text="@string/morning1" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowMorning2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:text="@string/morning2" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowAfternoon1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:text="@string/afternoon1" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowAfternoon2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:text="@string/afternoon2" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowAfternoon3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:text="@string/afternoon3" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowEvening1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:text="@string/evening1" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRowEvening2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.15">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="@drawable/textview_border"
+                android:gravity="center"
+                android:text="@string/evening2" />
+
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
